@@ -1,0 +1,14 @@
+@import "@fontsource/jetbrains-mono";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: "Jetbrain Mono";
+    }
+}
+
+.background_image{
+    background-image: url('src/assets/wall_thump.png');
+}
